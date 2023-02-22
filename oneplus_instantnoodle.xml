@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Adding Repositories Remote -->
+    <remote name="SH"
+            fetch="https://github.com/IllSaft"
+            revision="lineage-20"/>
+            <!-- InstantNoodle -->
+<!-- Projecet Repositories -->
+<project path="device/oneplus/instantnoodle" name="android_device_oneplus_instantnoodle" remote="SH" revision="lineage-20" />
+<!-- Kernel Repositories -->
+<project path="kernel/oneplus/sm8250" name="android_kernel_oneplus_sm8250" remote="SH" revision="lineage-20" />
+<!-- Vendor Repositories -->
+<project path="vendor/oneplus/instantnoodle" name="proprietary_vendor_oneplus_instantnoodle" remote="SH" revision="lineage-20" depth="1"  />
+            <!-- SM8250-COMMON -->
+<!-- Projecet Repositories -->
+<project path="device/oneplus/sm8250-common" remote="SH" name="android_device_oneplus_sm8250-common" />
+<!-- Projecet Rependencies -->
+<project path="hardware/oplus" name="android_hardware_oplus" remote="SH" revision="lineage-20" />
+<!-- Vendor Repositories -->
+<project path="vendor/oneplus/sm8250-common" name="proprietary_vendor_oneplus_sm8250-common" remote="SH" revision="lineage-20" depth="1"  />
+
+</manifest>
